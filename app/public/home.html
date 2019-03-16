@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PetBuddyFinder</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <style>
+        .bg {
+            background: url('./dog-cat.jpg') no-repeat center center;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            /*same height as jumbotron */
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        .jumbotron {
+            color: white;
+            text-shadow: #444 0 1px 1px;
+            background: transparent;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container bg">
+
+        <div class="jumbotron">
+            <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Pet Buddy Finder</h1>
+            <hr>
+            <h2>Answer a few basic questions. </h2>
+            <h2>Then find the buddy for your pet with the greatest compatibility!</h2>
+            <br>
+
+            <div>
+                <a href="/survey"><button type="button" class="btn btn-lg btn-primary">
+                        <h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4>
+                    </button></a>
+            </div>
+
+        </div>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a
+                        href="https://github.com/hliang/petbuddyfinder">GitHub Repo</a> |
+                    <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px"
+                        href="https://unsplash.com/@alexischloe?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge"
+                        target="_blank" rel="noopener noreferrer"
+                        title="Download free do whatever you want high-resolution photos from Alexis Chloe"><span
+                            style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg"
+                                style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white"
+                                viewBox="0 0 32 32">
+                                <title>unsplash-logo</title>
+                                <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path>
+                            </svg></span><span style="display:inline-block;padding:2px 3px">Photo by Alexis Chloe on
+                            Unsplash</span></a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>

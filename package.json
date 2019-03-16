@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "0.0.1",
+  "description": "Answer a few basic questions, then find the friend with the greatest similarity!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hliang/FriendFinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hliang/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/hliang/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
